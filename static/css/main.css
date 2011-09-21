@@ -1,7 +1,7 @@
-a,a:active,a:visited{color:#8fc829;}
+a,a:active,a:visited{color:#0284ff;}
 a:hover{text-decoration:underline;}
-::-moz-selection{background:#8fc829;color:#fff;text-shadow:none;}
-::selection{background:#8fc829;color:#fff;text-shadow:none;}
+::-moz-selection{background:#0284ff;color:#fff;text-shadow:none;}
+::selection{background:#0284ff;color:#fff;text-shadow:none;}
 .hero-unit{background:url('/static/img/abhi_panda.png') #eeeeee no-repeat 95% 25%;}
 .hero-unit a.large{margin:25px 0 0;}
 header{margin-bottom:50px;}
