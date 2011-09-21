@@ -16,7 +16,7 @@
 
 
   <!-- CSS: implied media="all" -->
-  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
   <link rel="stylesheet" href="/static/css/main.css">
   {% block css %}{% endblock %}
 
@@ -31,28 +31,24 @@
 
 <body>
 
-    <!--Github Ribbon-->
-    <a href="http://github.com/zachwill/flask_heroku">
-        <img src="/static/img/github_ribbon.png" style="position: fixed; top: 0; right: 0; border: 0;"
-             alt="Fork me on Github" />
-    </a>
+  <!--Github Ribbon-->
+  <a href="http://github.com/zachwill/flask_heroku">
+      <img src="/static/img/github_ribbon.png" style="position: fixed; top: 0; right: 0; border: 0;"
+           alt="Fork me on Github" />
+  </a>
   <div id="container">
+
     <header>
-    <ul class="clearfix">
-        <li class="float_left">
-            <a href="/" class="ir">yoursite.com</a>
-        </li>
-        <li>
-            <a href="{{ url_for('views.about') }}">About</a>
-        </li>
-    </ul>
     </header>
+
     <div id="main" role="main">
       {% block main %}{% endblock %}
     </div>
+
     <footer>
       {% block footer %}{% endblock %}
     </footer>
+
   </div> <!--! end of #container -->
 
   <!-- JavaScript at the bottom for fast page loading -->

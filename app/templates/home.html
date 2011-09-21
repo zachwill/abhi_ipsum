@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block js %}
+<script src="/static/js/main.js" type="text/javascript"></script>
+{% endblock %}
+
+
+{% block main %}
+<div class="container">
+    <div class="hero-unit">
+        <h1>Abhi Ipsum</h1>
+        <p class="tagline">Lorem ipsum with some <em>panache</em>.</p>
+        <a href="#generate" class="btn primary large">Refine your text &rarr;</a>
+    </div>
+    <div class="row">
+        <div class="span-one-third" >
+            <h3>Problem</h3>
+            <p>You need filler text, but no one's yet to create some with words
+            like <strong>panda</strong>, <strong>sweater vest</strong>, and
+            <strong>#gov20</strong>.</p>
+        </div>
+        <div class="span-one-third">
+            <h3>Solution</h3>
+            <p>Someone should create a web platform for empowering developers
+            to empower prototypes that can eventually empower citizens.</p>
+        </div>
+        <div class="span-one-third">
+            <h3>What's included?</h3>
+            <p>Auto-generated text with just the right amount of hash tags to
+            take your prototypes from boring to social.</p>
+        </div>
+    </div>
+    <div class="page-header whitespace">
+        <h2>Ipsum Form <small>You're officially 50% closer to better ipsum</small></h2>
+    </div>
+    <div class="row">
+        <form action="/generate" method="GET" class="span6" id="generate">
+            <fieldset>
+                    <label class="span3">How many paragraphs?</label>
+                    <input class="span2" type="number" name="paragraphs" value="2" />
+            </fieldset>
+            <fieldset>
+                    <label class="span3">Include <code>&lt;p&gt;</code> tags?</label>
+                    <select name="tags" class="span2 offset1" id="tags">
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                    </select>
+            </fieldset>
+            <input type="submit" class="btn large danger" value="Pandas" name="" />
+        </form>
+        <div class="span9 offset1">
+            <textarea name="abhi-ipsum"></textarea>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block footer %}
+<div class="container">
+    <div class="row">
+        <div class="span4 offset4">
+            <a href="http://codeforamerica.org" class="ir cfa_logo">Code for America</a>
+        </div>
+        <div class="span4">
+            <a href="http://www.zachwill.com" class="ir super_z">zachwill.com</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
