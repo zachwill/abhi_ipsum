@@ -21,5 +21,12 @@ dropdown menus. Meetings http://c4a.me/ WordPress @codeforamerica Powerpoint
 presentation Ben Franklin room.
 """
 
+paragraph_three = """
+A social sweater vest incubator could be great RT @pahlkadot.  Mad Men apps
+built by cool graphics through civic leadership can you write a blog post?
+Pandas through communication story ideate if you overlay incubator Google and
+#civic leaders recruiting awesome innovation through where's my blog post?
+"""
 
-PARAGRAPHS = [paragraph_one, paragraph_two]
+
+PARAGRAPHS = [paragraph_one, paragraph_two, paragraph_three]
