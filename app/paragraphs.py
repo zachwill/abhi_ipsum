@@ -14,7 +14,7 @@ Oxford comma.
 
 paragraph_two = """
 An open data platform by Alex Howard could engage with citizens
-and empower communities through CouchDB and Open 311 beer.  Millenials
+and empower communities through CouchDB and Open 311 beer.  Millennials
 and CMC mini-golf poor man's hacker RT @timoreilly Mac OS X pandas.
 Blogs and #firstworldproblems could break down barriers to entry
 open-source software dropdown menus. Meetings http://c4a.me/ WordPress
